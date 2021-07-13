@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 /* basic font */
@@ -14,15 +15,33 @@ body{
 .container{
     padding: 0 10%;
 }
-#top-box{
-    padding-top: 200px;
-}
+
 
 /* Top section */
 header{
     background-color: #2D25A0;
+}
+.banners{
     display: flex;
     justify-content: space-between;
+}
+.nav-bar{
+    display: flex;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    width: 100%;
+}
+.nav-1 a{
+    color: white;
+    padding-right: 50px;
+}
+.nav-1{
+    display: flex;
+    width: 30%;
+    
+}
+.nav-2{
+    margin-left: 60%;
 }
 
 .football-image{
