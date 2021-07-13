@@ -1,0 +1,108 @@
+/* Global style */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+/* basic font */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    padding: 0 10%;
+}
+
+/* Top section */
+header{
+    background-color: #2D25A0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.football-image{
+    width: 100%;
+}
+
+.football-image img{
+    width: 100%;
+}
+.football-heading h1{
+    font-size: 64px;
+    color: white;
+    padding-bottom: 25px;
+}
+.buttonss{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    background-color: #e02c6d;
+    padding: 10px 20px;
+}
+
+.football-heading i{
+    padding-left: 10px;
+}
+
+/* payer section */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 80px 0px;
+}
+.player img{
+    width: 100%;
+}
+.player{
+    padding: 15px;
+    box-shadow: 0 0 40px hsla(0, 0%, 0%, 0.15);
+}
+
+/* Highlight */
+.highlight{
+    display: flex;
+}
+.highlight-photo img{
+    width: 90%;
+}
+
+.highlight h1{
+    font-size: 2.5em;
+}
+.highlight-details{
+    padding: 5%;
+}
+.highlight-details p{
+    padding-bottom: 50px;
+}
+
+/* footer */
+
+footer{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 40px hsla(0, 0%, 0%, 0.15);
+}
+.football-photo img{
+    width: 50%;
+}
+ .icon img{
+     width: 40px;
+ }
+ .copy-right p{
+     padding-right: 350px;
+ }
+ .icon{
+    width: 16px;
+    padding-right: 450px;
+    display: flex;
+ }
+ .fab{
+     padding: 10px;
+ }
